@@ -1,0 +1,4 @@
+{{ config(materialized='roles') }}
+
+select *
+from snowflake.account_usage.roles
