@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: PUBLIC
+    database: PC_DBT_DB  
+    schema: PUBLIC  
+    tables:
+      - name: Emp
+      - name: Dept
+
+  - name: stripe
+    tables:
+      - name: payments
