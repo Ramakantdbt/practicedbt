@@ -1,4 +1,0 @@
-select *
-from snowflake.account_usage.roles r
-left join snowflake.account_usage.access_history a on r.name = a.user_name
-;
