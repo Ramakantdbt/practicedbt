@@ -1,7 +1,7 @@
 
 /* ETL test changes*/
 
-/* ETL test2 changes*/
+
 
 Select * from SNOWFLAKE.ACCOUNT_USAGE.ACCESS_HISTORY
 union all
